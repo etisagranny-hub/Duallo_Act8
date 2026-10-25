@@ -1,0 +1,256 @@
+
+/* =====================================
+   BLUE HORIZON
+   Ocean Conservation Website
+   ===================================== */
+
+/* PAGE BACKGROUND */
+body {
+    background-color: #e8f8fc;
+    color: #123047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    margin: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* MAIN TITLE */
+h1 {
+    background-color: #063b5c;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    border: 8px ridge #48c6d9;
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+}
+
+/* SUBTITLE */
+h2 {
+    background-color: #bceaf2;
+    color: #063b5c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px double #168aad;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 25px 10px;
+}
+
+/* SMALLER HEADINGS */
+h3 {
+    background-color: #d5f3f7;
+    color: #087e8b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    border-left: 8px solid #168aad;
+    padding: 12px;
+    margin: 20px 10px 10px 10px;
+}
+
+/* NAVIGATION LINKS */
+.links {
+    background-color: #063b5c;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px outset #48c6d9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+/* INDIVIDUAL LINKS */
+a {
+    background-color: #d7f3f8;
+    color: #063b5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid #48c6d9;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 4px;
+}
+
+/* PARAGRAPHS */
+p {
+    background-color: #f7fdff;
+    color: #123047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    border: 2px solid #c3e7ef;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 15px 10px;
+}
+
+/* HERO IMAGE PARAGRAPH */
+.hero {
+    background-color: #063b5c;
+    text-align: center;
+    border: 8px ridge #168aad;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 25px 10px;
+}
+
+/* IMAGES */
+img {
+    border: 5px groove #48c6d9;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* HIGHLIGHTED FEATURE */
+.feature {
+    background-color: #bceaf2;
+    color: #063b5c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 7px outset #168aad;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 10px;
+}
+
+/* QUOTATION */
+.quote {
+    background-color: #063b5c;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    border: 8px ridge #48c6d9;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 10px;
+}
+
+/* BORDER EXAMPLES */
+.border-solid {
+    background-color: #f7fdff;
+    border: 5px solid #087e8b;
+}
+
+.border-dotted {
+    background-color: #f7fdff;
+    border: 5px dotted #168aad;
+}
+
+.border-dashed {
+    background-color: #f7fdff;
+    border: 5px dashed #168aad;
+}
+
+.border-double {
+    background-color: #d7f3f8;
+    border: 7px double #063b5c;
+}
+
+.border-groove {
+    background-color: #d7f3f8;
+    border: 8px groove #168aad;
+}
+
+.border-ridge {
+    background-color: #d7f3f8;
+    border: 8px ridge #168aad;
+}
+
+.border-inset {
+    background-color: #d7f3f8;
+    border: 8px inset #168aad;
+}
+
+.border-outset {
+    background-color: #d7f3f8;
+    border: 8px outset #168aad;
+}
+
+/* ROUNDED MESSAGE BOX */
+.rounded-box {
+    background-color: #bceaf2;
+    color: #063b5c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid #168aad;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 25px 10px;
+}
+
+/* LISTS */
+ul {
+    background-color: #f7fdff;
+    color: #123047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 4px dashed #48c6d9;
+    border-radius: 12px;
+    padding: 30px 45px;
+    margin: 20px 10px;
+}
+
+ol {
+    background-color: #f7fdff;
+    color: #123047;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 4px dotted #168aad;
+    border-radius: 12px;
+    padding: 30px 45px;
+    margin: 20px 10px;
+}
+
+/* BOLD TEXT */
+b {
+    color: #087e8b;
+    font-weight: bold;
+}
+
+/* ITALIC TEXT */
+i {
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* HORIZONTAL LINE */
+hr {
+    border: 3px double #168aad;
+    margin: 25px 10px;
+}
+
+/* ENDING MESSAGE */
+.ending {
+    background-color: #063b5c;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border: 6px ridge #48c6d9;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px 10px;
+}
